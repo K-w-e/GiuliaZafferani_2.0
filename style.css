@@ -1,0 +1,53 @@
+*{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.mode{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+.contacts{
+    columns: 2;
+}
+
+text{
+	fill: red;
+}
+
+path {
+	fill: none;
+}
+
+#tip{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.dark{
+    color: white;
+    background-color: black;
+}
+
+.light{
+    color: black;
+    background-color: white;
+}
