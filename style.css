@@ -14,6 +14,7 @@
     position: absolute;
     top: 30px;
     right: 30px;
+    z-index: 9999;
 }
 
 .footer{
@@ -44,10 +45,15 @@ path {
 
 .dark{
     color: white;
-    background-color: black;
 }
 
 .light{
     color: black;
-    background-color: white;
+}
+
+@media only screen and (max-width: 425px) {
+    .header{
+        padding-top: 30px;
+        padding-right: 30px;
+    }
 }

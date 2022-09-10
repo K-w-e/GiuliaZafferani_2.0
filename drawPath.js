@@ -7,7 +7,9 @@ var line = d3.line()
 var input = d3.select("input")
 	.on("input", changeLetters);
 
-var letters = "Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it ";
+var letters = `Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it 
+Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it 
+`;
 
 var startingPath = getStartingPath();
 
