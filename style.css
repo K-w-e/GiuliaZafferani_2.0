@@ -2,6 +2,26 @@
     overflow: hidden;
     margin: 0;
     padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-variation-settings: "wght" 400;
+
+    text-decoration: none;
+}
+
+a .dark{
+    color: white !important;
+    text-decoration: none;
+}
+
+a .dark:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+a:hover{
+    font-variation-settings: "wght" 800;
+    transition: 0.5s;
 }
 
 .header{
@@ -28,7 +48,7 @@
 }
 
 text{
-	fill: red;
+	fill: white;
 }
 
 path {
@@ -48,7 +68,7 @@ path {
 }
 
 .light{
-    color: black;
+    color: #853cf4;
 }
 
 @media only screen and (max-width: 425px) {
