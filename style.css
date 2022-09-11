@@ -83,4 +83,9 @@ path {
         padding-top: 30px;
         padding-right: 30px;
     }
+    #tip {
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }
