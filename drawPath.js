@@ -1,5 +1,5 @@
-var width = window.innerWidth,
-		height = window.innerHeight;
+var width = window.innerWidth
+var height = window.innerHeight
 
 var line = d3.line()
 	.curve(d3.curveBasis);
@@ -11,7 +11,7 @@ var letters = `Hey there! Welcome to giuliazafferani.it Hey there! Welcome to gi
 Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it Hey there! Welcome to giuliazafferani.it 
 `;
 
-var startingPath = getStartingPath();
+var startingPath = "0";
 
 var svg = d3.select("body").append("svg")
 	.attr("width", width)
@@ -59,8 +59,3 @@ function dragStarted() {
 		path.attr("d", line);
 	});
 }
-
-function getStartingPath() {
-	return "0";
-}
-

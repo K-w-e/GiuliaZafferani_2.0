@@ -1,7 +1,13 @@
 function toggleDark() {
     var divs = document.getElementsByTagName("div");
+    var links = document.getElementsByTagName("a");
 
     for (let item of divs){
+        item.classList.toggle("dark")
+        item.classList.toggle("light")
+    }
+
+    for (let item of links){
         item.classList.toggle("dark")
         item.classList.toggle("light")
     }
